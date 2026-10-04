@@ -3008,6 +3008,17 @@ article.cc-enriched section.journal-entry-content {
   font-family: Labrada, serif;
   color: #724a32;
 }
+.mist-engine .challenge-entry-container .challenge-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.mist-engine .challenge-entry-container .challenge-name-row .challenge-name-row-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
 .mist-engine .challenge-entry-container h2,
 .mist-engine .npc-challenges-container h2 {
   font-family: Labrada, serif;
@@ -5294,3 +5305,5 @@ article.cc-enriched section.journal-entry-content {
   height: 100%;
   padding-right: 8px;
 }
+
+/*# sourceMappingURL=mist-engine-fvtt.css.map */
