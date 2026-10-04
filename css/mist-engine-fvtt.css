@@ -3010,7 +3010,7 @@ article.cc-enriched section.journal-entry-content {
 }
 .mist-engine .challenge-entry-container .challenge-name-row {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   gap: 16px;
 }

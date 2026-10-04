@@ -4,6 +4,7 @@ export default class MistEngineShortChallenge extends MistEngineItemBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;
+    const requiredInteger = { required: true, nullable: false, integer: true };
     const schema = super.defineSchema();
 
     schema.limitedRevealed = new fields.BooleanField();
